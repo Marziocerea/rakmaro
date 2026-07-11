@@ -32,8 +32,9 @@ test("server-renders the Rakmaro landing page", async () => {
   assert.match(html, /Rakmaro/);
   assert.match(html, /Authorized RAKEZ reseller/);
   assert.match(html, /AED 6,010/);
-  assert.match(html, /Company setup only|Création de société seule/);
-  assert.match(html, /hero-dubai-hyperlapse\.mp4/);
+  assert.match(html, /Votre société UAE, sans tunnel administratif|Your UAE company, without the admin maze/);
+  assert.match(html, /RAKEZ launch paths/);
+  assert.match(html, /hero-canvas/);
 });
 
 test("removes disposable starter preview files", async () => {
@@ -44,7 +45,11 @@ test("removes disposable starter preview files", async () => {
   ]);
 
   assert.doesNotMatch(page, /SkeletonPreview|_sites-preview|codex-preview/);
+  assert.match(page, /hero-frames\/frame-/);
   assert.doesNotMatch(layout, /Starter Project|codex-preview|_sites-preview/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
-  await access(new URL("../public/hero-dubai-hyperlapse.mp4", import.meta.url));
+  await access(new URL("../public/hero-frames/frame-000.jpg", import.meta.url));
+  await access(new URL("../public/hero-frames/frame-063.jpg", import.meta.url));
+  await access(new URL("../public/assets/dubai-aerial-fog.jpg", import.meta.url));
+  await access(new URL("../public/assets/rak-corniche-morning.jpg", import.meta.url));
 });
