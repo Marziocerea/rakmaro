@@ -1,0 +1,8 @@
+.openai
+.wrangler
+.vinext
+dist
+node_modules
+outputs
+work
+npm-debug.log*
