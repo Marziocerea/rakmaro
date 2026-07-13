@@ -1,0 +1,29 @@
+{
+  "importedAt": "2026-07-13T13:52:19.343Z",
+  "sources": {
+    "packages": [
+      "RAKEZ - ALL PACKAGES 2026 (1).xlsx",
+      "RAKEZ - ALL PACKAGES  2026 (1).xlsx"
+    ],
+    "activities": "RAKEZ ACTIVE BUSINESS ACTIVITIES LICENSE TYPES 2026.xlsx"
+  },
+  "packageCount": 40,
+  "activityCount": 4183,
+  "activeActivityCount": 3395,
+  "activeFreeZoneActivityCount": 1597,
+  "specialActivityCount": 149,
+  "esrActivityCount": 151,
+  "highRiskActivityCount": 80,
+  "licenseTypes": {
+    "Industrial": 551,
+    "Commercial": 515,
+    "Services": 296,
+    "Media": 130,
+    "Educational": 67,
+    "Individual / Professional": 24,
+    "E-Commerce": 11,
+    "General Trading": 1,
+    "freelance Permit": 1,
+    "Business Invest": 1
+  }
+}

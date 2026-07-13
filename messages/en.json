@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "handled": "Support",
+    "whyUae": "Why the UAE",
+    "offers": "Offers",
+    "estimate": "Estimate",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "cta": {
+    "qualify": "Review my project",
+    "estimate": "Estimate my relocation",
+    "contact": "Send my project"
+  },
+  "hero": {
+    "overline": "Company setup · residency · banking",
+    "title": "Open your UAE company.",
+    "body": "Rakmaro structures your incorporation, residency path and business account opening with a French-speaking team.",
+    "proofs": [
+      "Company from 6,010 AED",
+      "Remote setup possible",
+      "French and English support",
+      "Company, visa and banking"
+    ]
+  },
+  "sections": {
+    "handledEyebrow": "What Rakmaro handles",
+    "handledTitle": "Full support, from company setup to UAE relocation.",
+    "handledBody": "Rakmaro organizes the steps that turn an international project into a usable UAE structure.",
+    "whyUaeEyebrow": "Why create in the UAE",
+    "whyUaeTitle": "A strong base to grow your business and build your life locally.",
+    "whyUaeBody": "The UAE offers an international environment, a possible residency path through your company, strong business credibility and natural access to Europe, Africa, the Middle East and Asia.",
+    "howEyebrow": "How Rakmaro creates your company",
+    "howTitle": "You decide. Rakmaro structures, prepares and coordinates.",
+    "howBody": "The goal is simple: avoid the wrong choices at the start, create the company properly, then connect incorporation, residency, Emirates ID and business banking.",
+    "rakEyebrow": "Why Ras Al Khaimah",
+    "rakTitle": "A company registered in Ras Al Khaimah. A business managed from the UAE.",
+    "rakBody": "Rakmaro mainly incorporates companies through the Ras Al Khaimah economic zone, a recognized and competitive solution for international entrepreneurs.\n\nThe emirate where your company is registered does not force you to live there. You can live and work from Dubai, Abu Dhabi or elsewhere in the UAE, depending on the nature of your activity.\n\nBefore incorporation, we check whether your project requires an office, a sector approval or a specific mainland presence.",
+    "rakezNote": "Licences are issued by RAKEZ, the Ras Al Khaimah economic authority.",
+    "offersEyebrow": "Offers",
+    "offersTitle": "Start with your objective, not an administrative package.",
+    "offersBody": "Displayed budgets give a first reference point. Rakmaro then confirms the exact route based on your activity, visas, family situation and timeline.",
+    "journeyEyebrow": "Full journey",
+    "journeyTitle": "A clear path, in the right order.",
+    "activityEyebrow": "Understand your activity",
+    "activityTitle": "Describe what your company will sell or invoice.",
+    "activityBody": "Search in plain business language. Rakmaro then connects your project to the right licence wording to build a clear estimate.",
+    "simulatorEyebrow": "Estimator",
+    "simulatorTitle": "Estimate your relocation",
+    "estimateResultLabel": "Probably suitable configuration",
+    "estimateValidation": "Rakmaro still needs to confirm the exact activity, number of shareholders, premises requirement and nature of your clients.",
+    "bankEyebrow": "Business account",
+    "bankTitle": "Business account opening within 7 days after company setup and visa.",
+    "bankBody": "Once the company is created and the residence visa is obtained, Rakmaro prepares business account opening within 7 days with what banks expect: a clear activity, corporate documents, shareholder profile, clients and business logic.",
+    "bankNote": "Residency changes the conversation: it reassures the bank, simplifies KYC checks and gives the file a much stronger logic.",
+    "founderEyebrow": "French-speaking team",
+    "founderTitle": "A team that understands your language and the local ground.",
+    "founderBody": "Rakmaro supports French-speaking and international entrepreneurs with a practical view of the project, administrative steps and decisions to make before relocating to the UAE.",
+    "faqTitle": "Frequently asked questions",
+    "contactEyebrow": "Contact",
+    "contactTitle": "Have your project reviewed.",
+    "contactBody": "Send your situation, activity and relocation objective. Rakmaro replies with the points to confirm and the most coherent route.",
+    "contactNote": "Sensitive documents should not be sent by standard email. Rakmaro will share the right channel if the file moves forward.",
+    "consent": "I agree to be contacted about my project and understand the estimate remains indicative.",
+    "footer": "Advisory and support for company setup, residency, Emirates ID, business account preparation and UAE relocation."
+  }
+}

@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "max-rakez-packages-all-incl-max-zero",
+    "family": "max",
+    "name": "Max Zero",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 0,
+    "maxVisas": 0,
+    "facilityType": "Networking",
+    "legalForm": "FZ-LLC | Subsidiary",
+    "prices": {
+      "price-1-year": 8550,
+      "price-2-year": 15390,
+      "price-3-year": 21800,
+      "price-4-year": 29070,
+      "price-5-year": 36340,
+      "price-6-year": 43605,
+      "price-10-year": 72675
+    },
+    "oneYearPrice": 8550,
+    "notes": [
+      "Additional Visa (If applicable): Not Applicable",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: Not Applicable",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Zero"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-co-1-1-visa-inclusive",
+    "family": "max",
+    "name": "Max Co 1 (1 visa inclusive)",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 16560,
+      "price-2-year": 28135,
+      "price-3-year": 39720,
+      "price-4-year": 49650,
+      "price-5-year": 62065,
+      "price-6-year": 69510,
+      "price-10-year": 115850
+    },
+    "oneYearPrice": 16560,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Co 1"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-co-2-2-visas-inclusive",
+    "family": "max",
+    "name": "Max Co 2 (2 visas inclusive)",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 2,
+    "maxVisas": 2,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 20060,
+      "price-2-year": 34085,
+      "price-3-year": 48120,
+      "price-4-year": 60150,
+      "price-5-year": 75190,
+      "price-6-year": 84210,
+      "price-10-year": 140350
+    },
+    "oneYearPrice": 20060,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Co 2"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-co-3-3-visas-inclusive",
+    "family": "max",
+    "name": "Max Co 3 (3 visas inclusive)",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 3,
+    "maxVisas": 3,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 25060,
+      "price-2-year": 42585,
+      "price-3-year": 60120,
+      "price-4-year": 75150,
+      "price-5-year": 93940,
+      "price-6-year": 105120,
+      "price-10-year": 175350
+    },
+    "oneYearPrice": 25060,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Co 3"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-co-4-4-visas-inclusive",
+    "family": "max",
+    "name": "Max Co 4 (4 visas inclusive)",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 29060,
+      "price-2-year": 49385,
+      "price-3-year": 69720,
+      "price-4-year": 87150,
+      "price-5-year": 108940,
+      "price-6-year": 122010,
+      "price-10-year": 203350
+    },
+    "oneYearPrice": 29060,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other series in case you need more visas",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Co 4"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-serviced-office-1-visa",
+    "family": "max",
+    "name": "Max Serviced Office 1 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 23000,
+      "price-2-year": 39100,
+      "price-3-year": 55200,
+      "price-4-year": 69000,
+      "price-5-year": 86250,
+      "price-6-year": 96600,
+      "price-10-year": 161000
+    },
+    "oneYearPrice": 23000,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Serv 1"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-serviced-office-2-visa",
+    "family": "max",
+    "name": "Max Serviced Office 2 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 2,
+    "maxVisas": 2,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 27000,
+      "price-2-year": 45900,
+      "price-3-year": 64800,
+      "price-4-year": 81000,
+      "price-5-year": 101250,
+      "price-6-year": 113400,
+      "price-10-year": 189000
+    },
+    "oneYearPrice": 27000,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Serv 2"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-serviced-office-3-visa",
+    "family": "max",
+    "name": "Max Serviced Office 3 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 3,
+    "maxVisas": 3,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 31000,
+      "price-2-year": 52700,
+      "price-3-year": 74400,
+      "price-4-year": 93000,
+      "price-5-year": 116250,
+      "price-6-year": 130200,
+      "price-10-year": 217000
+    },
+    "oneYearPrice": 31000,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Serv 3"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-serviced-office-4-visa",
+    "family": "max",
+    "name": "Max Serviced Office 4 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 35000,
+      "price-2-year": 59500,
+      "price-3-year": 84000,
+      "price-4-year": 105000,
+      "price-5-year": 131250,
+      "price-6-year": 147000,
+      "price-10-year": 245000
+    },
+    "oneYearPrice": 35000,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other series in case you need more visas",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Serv 4"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-standard-office-1-visa",
+    "family": "max",
+    "name": "Max Standard Office 1 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 29500,
+      "price-2-year": 50150,
+      "price-3-year": 70800,
+      "price-4-year": 88500,
+      "price-5-year": 110625,
+      "price-6-year": 123900,
+      "price-10-year": 206500
+    },
+    "oneYearPrice": 29500,
+    "notes": [
+      "Additional Visa (If applicable): Upgrage to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Std 1"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-standard-office-2-visas",
+    "family": "max",
+    "name": "Max Standard Office 2 VISAS",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 2,
+    "maxVisas": 2,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 33500,
+      "price-2-year": 56950,
+      "price-3-year": 80400,
+      "price-4-year": 100500,
+      "price-5-year": 125625,
+      "price-6-year": 140700,
+      "price-10-year": 243500
+    },
+    "oneYearPrice": 33500,
+    "notes": [
+      "Additional Visa (If applicable): Upgrage to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Std 2"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-standard-office-3-visas",
+    "family": "max",
+    "name": "Max Standard Office 3 VISAS",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 3,
+    "maxVisas": 3,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 37500,
+      "price-2-year": 63750,
+      "price-3-year": 90000,
+      "price-4-year": 112500,
+      "price-5-year": 140625,
+      "price-6-year": 157500,
+      "price-10-year": 262500
+    },
+    "oneYearPrice": 37500,
+    "notes": [
+      "Additional Visa (If applicable): Upgrage to other packages in the same series against package price difference",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Std 3"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-standard-office-4-visas",
+    "family": "max",
+    "name": "Max Standard Office 4 VISAS",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 41500,
+      "price-2-year": 70550,
+      "price-3-year": 99600,
+      "price-4-year": 124500,
+      "price-5-year": 155625,
+      "price-6-year": 174300,
+      "price-10-year": 190500
+    },
+    "oneYearPrice": 41500,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other series in case you need more visas",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Std 4"
+    ]
+  },
+  {
+    "id": "max-rakez-packages-all-incl-max-executive-office-6-visas",
+    "family": "max",
+    "name": "Max Executive Office 6 VISAS",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "",
+    "includedVisas": 6,
+    "maxVisas": 6,
+    "facilityType": "Executive Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 50550,
+      "price-2-year": 85935,
+      "price-3-year": 121320,
+      "price-4-year": 151650,
+      "price-5-year": 189565,
+      "price-6-year": 212310,
+      "price-10-year": 353850
+    },
+    "oneYearPrice": 50550,
+    "notes": [
+      "Additional Visa (If applicable): Upgrade to other package in case more visas are needed",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Max Exe 6"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-0-visa",
+    "family": "pro",
+    "name": "Pro 0 visa",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "0",
+    "includedVisas": 0,
+    "maxVisas": 0,
+    "facilityType": "Networking",
+    "legalForm": "FZ-LLC | Subsidiary",
+    "prices": {
+      "price-1-year": 6010,
+      "price-2-year": 10820,
+      "price-3-year": 15330,
+      "price-4-year": 20440,
+      "price-5-year": 25550,
+      "price-6-year": 30660,
+      "price-10-year": 51100
+    },
+    "oneYearPrice": 6010,
+    "notes": [
+      "Additional Visa (If applicable): Not Applicable",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: Not Applicable",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro zero"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-co-working-1-visa",
+    "family": "pro",
+    "name": "Pro Co working 1 visa",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "1 free visa (can apply up to 4)",
+    "includedVisas": 1,
+    "maxVisas": 4,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 14010,
+      "price-2-year": 26620,
+      "price-3-year": 37830,
+      "price-4-year": 50440,
+      "price-5-year": 59550,
+      "price-6-year": 67260,
+      "price-10-year": 105100
+    },
+    "oneYearPrice": 14010,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Co 1"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-co-working-2-visas",
+    "family": "pro",
+    "name": "Pro Co working 2 visas",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "2 free visas ( can apply up to 4)",
+    "includedVisas": 2,
+    "maxVisas": 4,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 18010,
+      "price-2-year": 34220,
+      "price-3-year": 48630,
+      "price-4-year": 64840,
+      "price-5-year": 76550,
+      "price-6-year": 86460,
+      "price-10-year": 135100
+    },
+    "oneYearPrice": 18010,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Co 2"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-co-working-3-visas",
+    "family": "pro",
+    "name": "Pro Co working 3 visas",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "3 free visas (can apply up to 4)",
+    "includedVisas": 3,
+    "maxVisas": 4,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 22010,
+      "price-2-year": 41820,
+      "price-3-year": 59430,
+      "price-4-year": 79240,
+      "price-5-year": 93550,
+      "price-6-year": 105660,
+      "price-10-year": 165100
+    },
+    "oneYearPrice": 22010,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Co 3"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-co-working-4-visas",
+    "family": "pro",
+    "name": "Pro Co working 4 visas",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "4",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 26010,
+      "price-2-year": 49420,
+      "price-3-year": 70230,
+      "price-4-year": 93640,
+      "price-5-year": 110550,
+      "price-6-year": 124860,
+      "price-10-year": 195100
+    },
+    "oneYearPrice": 26010,
+    "notes": [
+      "Additional Visa (If applicable): Not Applicable",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Co 4"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-serviced-office-1-visa",
+    "family": "pro",
+    "name": "Pro Serviced Office 1 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 4 but 1 Free",
+    "includedVisas": 1,
+    "maxVisas": 4,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 20510,
+      "price-2-year": 38970,
+      "price-3-year": 55380,
+      "price-4-year": 73840,
+      "price-5-year": 87175,
+      "price-6-year": 98460,
+      "price-10-year": 153850
+    },
+    "oneYearPrice": 20510,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Serv 1"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-serviced-office-2-visa",
+    "family": "pro",
+    "name": "Pro Serviced Office 2 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 4 but 2 Free",
+    "includedVisas": 2,
+    "maxVisas": 4,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 24510,
+      "price-2-year": 46570,
+      "price-3-year": 66180,
+      "price-4-year": 88240,
+      "price-5-year": 104175,
+      "price-6-year": 117660,
+      "price-10-year": 183850
+    },
+    "oneYearPrice": 24510,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Serv 2"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-serviced-office-3-visa",
+    "family": "pro",
+    "name": "Pro Serviced Office 3 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 4 but 3 Free",
+    "includedVisas": 3,
+    "maxVisas": 4,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 28510,
+      "price-2-year": 54170,
+      "price-3-year": 76980,
+      "price-4-year": 102640,
+      "price-5-year": 121375,
+      "price-6-year": 136860,
+      "price-10-year": 213850
+    },
+    "oneYearPrice": 28510,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Serv 3"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-serviced-office-4-visa",
+    "family": "pro",
+    "name": "Pro Serviced Office 4 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 4 for Free",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Serviced Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 34060,
+      "price-2-year": 57870,
+      "price-3-year": 81680,
+      "price-4-year": 102090,
+      "price-6-year": 142860
+    },
+    "oneYearPrice": 34060,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Serv 4"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-standard-office-1-visa",
+    "family": "pro",
+    "name": "Pro Standard Office 1 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 6 but 1 free",
+    "includedVisas": 1,
+    "maxVisas": 6,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 27010,
+      "price-2-year": 51320,
+      "price-3-year": 72930,
+      "price-4-year": 97240,
+      "price-5-year": 114800,
+      "price-6-year": 129610,
+      "price-10-year": 202600
+    },
+    "oneYearPrice": 27010,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Std 1"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-standard-office-2-visa",
+    "family": "pro",
+    "name": "Pro Standard Office 2 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up 6 but 2 free",
+    "includedVisas": 2,
+    "maxVisas": 2,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 31010,
+      "price-2-year": 58910,
+      "price-3-year": 83710,
+      "price-4-year": 111610,
+      "price-5-year": 131750,
+      "price-6-year": 148810,
+      "price-10-year": 232510
+    },
+    "oneYearPrice": 31010,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Std 2"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-standard-office-3-visa",
+    "family": "pro",
+    "name": "Pro Standard Office 3 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 6  but 3 free",
+    "includedVisas": 3,
+    "maxVisas": 6,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 35010,
+      "price-2-year": 66510,
+      "price-3-year": 94500,
+      "price-4-year": 126010,
+      "price-5-year": 148760,
+      "price-6-year": 168010,
+      "price-10-year": 262510
+    },
+    "oneYearPrice": 35010,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Std 3"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-standard-office-4-visa",
+    "family": "pro",
+    "name": "Pro Standard Office 4 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 6 but 4 for free",
+    "includedVisas": 4,
+    "maxVisas": 6,
+    "facilityType": "Standard Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 38060,
+      "price-2-year": 65660,
+      "price-3-year": 91260,
+      "price-4-year": 114090,
+      "price-6-year": 159660
+    },
+    "oneYearPrice": 38060,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Std 4"
+    ]
+  },
+  {
+    "id": "pro-packages-pro-executive-office-6-visa",
+    "family": "pro",
+    "name": "Pro Executive Office 6 VISA",
+    "activities": "Max 10",
+    "shareholders": "Max 50",
+    "visaQuota": "Up to 8 but 6 for free",
+    "includedVisas": 6,
+    "maxVisas": 8,
+    "facilityType": "Executive Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 48060,
+      "price-2-year": 81670,
+      "price-3-year": 114180,
+      "price-4-year": 142440,
+      "price-6-year": 198910
+    },
+    "oneYearPrice": 48060,
+    "notes": [
+      "Additional Visa (If applicable): 4000",
+      "Mix and match of activities: Permitted from all license types",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Pro Exec 6"
+    ]
+  },
+  {
+    "id": "lite-12000-package-lite-package",
+    "family": "lite",
+    "name": "Lite package",
+    "activities": "1",
+    "shareholders": "1",
+    "visaQuota": "1",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "Coworking",
+    "legalForm": "FZ-LLC | Subsidiary",
+    "prices": {
+      "price-1-year": 12010,
+      "price-2-year": 22820,
+      "price-3-year": 32430,
+      "price-4-year": 43240,
+      "price-5-year": 51050,
+      "price-6-year": 57660,
+      "price-10-year": 90100
+    },
+    "oneYearPrice": 12010,
+    "notes": [
+      "Additional Visa (If applicable): Not Applicable",
+      "Mix and match of activities: Only GT+ E-commerce permitted",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: Lite"
+    ]
+  },
+  {
+    "id": "designated-zone-zero-visa-dz",
+    "family": "designated-zone",
+    "name": "Zero Visa DZ",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "N/A",
+    "includedVisas": 0,
+    "maxVisas": 0,
+    "facilityType": "Co-Working",
+    "legalForm": "FZ-LLC | Subsidiary",
+    "prices": {
+      "price-1-year": 9999,
+      "price-2-year": 17999,
+      "price-3-year": 25499,
+      "price-4-year": 33999,
+      "price-5-year": 42499,
+      "price-6-year": 50999,
+      "price-10-year": 84999
+    },
+    "oneYearPrice": 9999,
+    "notes": [
+      "Additional Visa (If Applicable: Not Applicable",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME BIZ 0"
+    ]
+  },
+  {
+    "id": "designated-zone-all-inclusive-1-visa",
+    "family": "designated-zone",
+    "name": "ALL INCLUSIVE 1 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "1",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "Co-Working",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 16560,
+      "price-2-year": 28120,
+      "price-3-year": 39680,
+      "price-4-year": 49590,
+      "price-5-year": 62115,
+      "price-6-year": 69410,
+      "price-10-year": 115950
+    },
+    "oneYearPrice": 16560,
+    "notes": [
+      "Additional Visa (If Applicable: Not Applicable",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME all-in"
+    ]
+  },
+  {
+    "id": "designated-zone-all-inclusive-2-visa",
+    "family": "designated-zone",
+    "name": "ALL INCLUSIVE 2 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "2",
+    "includedVisas": 2,
+    "maxVisas": 2,
+    "facilityType": "Co-Working",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 20060,
+      "price-2-year": 34070,
+      "price-3-year": 48080,
+      "price-4-year": 60090,
+      "price-5-year": 75240,
+      "price-6-year": 84110,
+      "price-10-year": 140450
+    },
+    "oneYearPrice": 20060,
+    "notes": [
+      "Additional Visa (If Applicable: Not Applicable",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Partner"
+    ]
+  },
+  {
+    "id": "designated-zone-all-inclusive-3-visa",
+    "family": "designated-zone",
+    "name": "ALL INCLUSIVE 3 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "3",
+    "includedVisas": 3,
+    "maxVisas": 3,
+    "facilityType": "Co-Working",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 25060,
+      "price-2-year": 42570,
+      "price-3-year": 60080,
+      "price-4-year": 75090,
+      "price-5-year": 93990,
+      "price-6-year": 105110,
+      "price-10-year": 175450
+    },
+    "oneYearPrice": 25060,
+    "notes": [
+      "Additional Visa (If Applicable: Not Applicable",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Venture"
+    ]
+  },
+  {
+    "id": "designated-zone-all-inclusive-4-visa",
+    "family": "designated-zone",
+    "name": "ALL INCLUSIVE 4 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "4",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Co-Working",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 29060,
+      "price-2-year": 49370,
+      "price-3-year": 69680,
+      "price-4-year": 87090,
+      "price-5-year": 108990,
+      "price-6-year": 121910,
+      "price-10-year": 203450
+    },
+    "oneYearPrice": 29060,
+    "notes": [
+      "Additional Visa (If Applicable: Not Applicable",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Enterprise"
+    ]
+  },
+  {
+    "id": "designated-zone-serviced-office-1-visa",
+    "family": "designated-zone",
+    "name": "Serviced Office 1 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "4",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "1 Dedicated Desks @ Shared Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 20510,
+      "price-2-year": 38970,
+      "price-3-year": 55380,
+      "price-4-year": 73840,
+      "price-5-year": 87175,
+      "price-6-year": 98460,
+      "price-10-year": 153850
+    },
+    "oneYearPrice": 20510,
+    "notes": [
+      "Additional Visa (If Applicable: 4000",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Srv Off"
+    ]
+  },
+  {
+    "id": "designated-zone-serviced-office-2-visa",
+    "family": "designated-zone",
+    "name": "Serviced Office 2 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "4",
+    "includedVisas": 2,
+    "maxVisas": 2,
+    "facilityType": "1 Dedicated Desks @ Shared Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 24510,
+      "price-2-year": 46570,
+      "price-3-year": 66180,
+      "price-4-year": 88240,
+      "price-5-year": 104175,
+      "price-6-year": 117660,
+      "price-10-year": 183850
+    },
+    "oneYearPrice": 24510,
+    "notes": [
+      "Additional Visa (If Applicable: 4000",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Srv Off"
+    ]
+  },
+  {
+    "id": "designated-zone-serviced-office-3-visa",
+    "family": "designated-zone",
+    "name": "Serviced Office 3 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "4",
+    "includedVisas": 3,
+    "maxVisas": 3,
+    "facilityType": "1 Dedicated Desks @ Shared Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 28510,
+      "price-2-year": 54170,
+      "price-3-year": 76980,
+      "price-4-year": 102640,
+      "price-5-year": 121375,
+      "price-6-year": 136860,
+      "price-10-year": 213850
+    },
+    "oneYearPrice": 28510,
+    "notes": [
+      "Additional Visa (If Applicable: 4000",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Srv Off"
+    ]
+  },
+  {
+    "id": "designated-zone-serviced-office-4-visa",
+    "family": "designated-zone",
+    "name": "Serviced Office 4 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "4",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "1 Dedicated Desks @ Shared Office",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 34060,
+      "price-2-year": 57870,
+      "price-3-year": 81680,
+      "price-4-year": 102090,
+      "price-5-year": 127740,
+      "price-6-year": 142910,
+      "price-10-year": 238450
+    },
+    "oneYearPrice": 34060,
+    "notes": [
+      "Additional Visa (If Applicable: 4000",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Srv Off"
+    ]
+  },
+  {
+    "id": "designated-zone-standard-office-1-visa",
+    "family": "designated-zone",
+    "name": "Standard Office 1 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "6",
+    "includedVisas": 1,
+    "maxVisas": 1,
+    "facilityType": "Dedicated Office, 5 to 16 sqm",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 27010,
+      "price-2-year": 51320,
+      "price-3-year": 72930,
+      "price-4-year": 97240,
+      "price-5-year": 114800,
+      "price-6-year": 129610,
+      "price-10-year": 202600
+    },
+    "oneYearPrice": 27010,
+    "notes": [
+      "Additional Visa (If Applicable: 4000",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Std Off"
+    ]
+  },
+  {
+    "id": "designated-zone-standard-office-4-visa",
+    "family": "designated-zone",
+    "name": "Standard Office 4 VISA",
+    "activities": "Max 5",
+    "shareholders": "Max 5",
+    "visaQuota": "6",
+    "includedVisas": 4,
+    "maxVisas": 4,
+    "facilityType": "Dedicated Office, 5 to 16 sqm",
+    "legalForm": "FZ-LLC | Subsidiary | Branch",
+    "prices": {
+      "price-1-year": 38060,
+      "price-2-year": 64670,
+      "price-3-year": 91280,
+      "price-4-year": 114090,
+      "price-6-year": 159660,
+      "price-10-year": 273000
+    },
+    "oneYearPrice": 38060,
+    "notes": [
+      "Additional Visa (If Applicable: 4000",
+      "Mix and match of activities: Only General Trading & Commercial Licenses",
+      "Establishment Card: FREE",
+      "BANK Letter (to open A/C): FREE",
+      "PROMO CODE: DZ SME All-in Std Off"
+    ]
+  }
+]

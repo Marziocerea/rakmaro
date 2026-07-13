@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "handled": "Accompagnement",
+    "whyUae": "Pourquoi les Émirats",
+    "offers": "Offres",
+    "estimate": "Estimer",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "cta": {
+    "qualify": "Étudier mon projet",
+    "estimate": "Estimer mon installation",
+    "contact": "Envoyer mon projet"
+  },
+  "hero": {
+    "overline": "Company setup · résidence · banque",
+    "title": "Ouvrez votre société aux Émirats.",
+    "body": "Rakmaro structure votre création, votre résidence et votre ouverture de compte avec une équipe francophone.",
+    "proofs": [
+      "Société à partir de 6 010 AED",
+      "Création possible à distance",
+      "Accompagnement en français",
+      "Société, visa et banque"
+    ]
+  },
+  "sections": {
+    "handledEyebrow": "Ce que Rakmaro prend en charge",
+    "handledTitle": "Un accompagnement complet, de la société à votre installation.",
+    "handledBody": "Rakmaro organise les étapes qui transforment un projet international en structure utilisable aux Émirats.",
+    "whyUaeEyebrow": "Pourquoi créer aux Émirats",
+    "whyUaeTitle": "Une base solide pour développer votre activité et votre vie sur place.",
+    "whyUaeBody": "Les Émirats offrent un cadre international, une résidence possible via votre société, une image business forte et un accès naturel aux marchés Europe, Afrique, Moyen-Orient et Asie.",
+    "howEyebrow": "Comment Rakmaro crée votre société",
+    "howTitle": "Vous décidez. Rakmaro structure, prépare et coordonne.",
+    "howBody": "L’objectif est simple : éviter les mauvais choix au départ, constituer correctement la société, puis relier création, résidence, Emirates ID et compte professionnel.",
+    "rakEyebrow": "Pourquoi Ras Al Khaimah",
+    "rakTitle": "Une société enregistrée à Ras Al Khaimah. Une activité pilotée depuis les Émirats.",
+    "rakBody": "Rakmaro constitue principalement les sociétés auprès de la zone économique de Ras Al Khaimah, une solution reconnue et compétitive pour les entrepreneurs internationaux.\n\nL’émirat d’enregistrement de votre société ne vous oblige pas à y vivre. Vous pouvez résider et travailler depuis Dubaï, Abu Dhabi ou ailleurs aux Émirats, selon la nature de votre activité.\n\nAvant la création, nous vérifions si votre projet nécessite un bureau, une autorisation sectorielle ou une présence spécifique sur le mainland.",
+    "rakezNote": "Les licences sont délivrées par RAKEZ, l’autorité économique de Ras Al Khaimah.",
+    "offersEyebrow": "Offres",
+    "offersTitle": "Choisissez d’abord votre objectif, pas un package administratif.",
+    "offersBody": "Les budgets affichés donnent un premier repère. Rakmaro confirme ensuite la route exacte selon votre activité, vos visas, votre situation familiale et votre calendrier.",
+    "journeyEyebrow": "Parcours complet",
+    "journeyTitle": "Un parcours clair, dans le bon ordre.",
+    "activityEyebrow": "Comprendre votre activité",
+    "activityTitle": "Décrivez ce que votre société va vendre ou facturer.",
+    "activityBody": "Recherchez votre métier en langage simple. Rakmaro le rattache ensuite au bon intitulé de licence pour construire une estimation claire.",
+    "simulatorEyebrow": "Estimateur",
+    "simulatorTitle": "Estimer votre installation",
+    "estimateResultLabel": "Configuration probablement adaptée",
+    "estimateValidation": "Rakmaro doit encore confirmer l’activité exacte, le nombre d’associés, votre besoin de local et la nature de vos clients.",
+    "bankEyebrow": "Compte professionnel",
+    "bankTitle": "Ouverture de compte bancaire sous 7 jours après société et visa.",
+    "bankBody": "Une fois la société créée et le visa de résidence obtenu, Rakmaro prépare l’ouverture du compte bancaire sous 7 jours avec les éléments attendus : activité claire, documents corporate, profil des associés, clients et logique économique.",
+    "bankNote": "La résidence change tout : elle rassure la banque, simplifie les contrôles KYC et donne au dossier une cohérence beaucoup plus forte.",
+    "founderEyebrow": "Équipe francophone",
+    "founderTitle": "Une équipe qui parle votre langue et connaît le terrain.",
+    "founderBody": "Rakmaro accompagne les entrepreneurs francophones et internationaux avec une lecture concrète du projet, des étapes administratives et des décisions à prendre avant de s’installer aux Émirats.",
+    "faqTitle": "Questions fréquentes",
+    "contactEyebrow": "Contact",
+    "contactTitle": "Faites étudier votre projet.",
+    "contactBody": "Envoyez votre situation, votre activité et votre objectif d’installation. Rakmaro vous répond avec les points à confirmer et la route la plus cohérente.",
+    "contactNote": "Les documents sensibles ne doivent pas être envoyés par email standard. Rakmaro indiquera le canal adapté si le dossier avance.",
+    "consent": "J’accepte d’être recontacté au sujet de mon projet et je comprends que l’estimation reste indicative.",
+    "footer": "Conseil et accompagnement pour création de société, résidence, Emirates ID, compte professionnel et installation aux Émirats."
+  }
+}
