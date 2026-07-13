@@ -1581,6 +1581,46 @@ details p {
   font-weight: 780;
 }
 
+.footer-authority {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  width: min(520px, 100%);
+  border: 1px solid rgba(255, 253, 248, 0.14);
+  clip-path: var(--bevel-card);
+  padding: 16px;
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.94), rgba(255, 253, 248, 0.78)),
+    var(--white);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18);
+}
+
+.footer-authority img {
+  width: 76px;
+  max-height: 96px;
+  object-fit: contain;
+}
+
+.footer-authority div {
+  display: grid;
+  gap: 6px;
+}
+
+.footer-authority strong {
+  color: var(--green-dark);
+  font-size: 0.92rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.footer-authority p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .footer-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(120px, 1fr));

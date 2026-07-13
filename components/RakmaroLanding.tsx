@@ -1183,9 +1183,22 @@ export default function RakmaroLanding() {
             </a>
             <p>{copy.sections.footer}</p>
             <div className="footer-badges" aria-label={label(locale, "Garanties Rakmaro", "Rakmaro trust points")}>
-              <span>{label(locale, "Authorized reseller", "Authorized reseller")}</span>
+              <span>{label(locale, "Agent autorisé RAKEZ", "RAKEZ Authorized Agent")}</span>
               <span>{label(locale, "Équipe francophone", "French-speaking team")}</span>
               <span>{label(locale, "Société · Visa · Banque", "Company · Visa · Banking")}</span>
+            </div>
+            <div className="footer-authority">
+              <img src="/assets/rakez-logo.png" alt="RAKEZ - Ras Al Khaimah Economic Zone" loading="lazy" />
+              <div>
+                <strong>{label(locale, "Agent autorisé RAKEZ", "RAKEZ Authorized Agent")}</strong>
+                <p>
+                  {label(
+                    locale,
+                    "Rakmaro accompagne votre création de société auprès de la zone économique de Ras Al Khaimah.",
+                    "Rakmaro supports your company setup through Ras Al Khaimah Economic Zone.",
+                  )}
+                </p>
+              </div>
             </div>
           </div>
           <nav className="footer-links" aria-label={label(locale, "Navigation footer", "Footer navigation")}>
