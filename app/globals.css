@@ -158,6 +158,13 @@ svg {
     rgba(255, 253, 248, 0.1);
 }
 
+.brand-mark img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
 .primary-nav {
   justify-content: center;
   gap: 4px;
@@ -616,6 +623,8 @@ details {
 
 .site-header,
 .brand-mark,
+.footer-logo,
+.footer-badges span,
 .primary-nav a,
 .icon-button,
 .mobile-nav,
@@ -1475,26 +1484,164 @@ details p {
 }
 
 .site-footer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 34px clamp(18px, 5vw, 72px);
-  color: rgba(255, 253, 248, 0.8);
-  background: #071b19;
+  position: relative;
+  overflow: hidden;
+  padding: clamp(54px, 7vw, 88px) clamp(18px, 5vw, 72px) 28px;
+  color: rgba(255, 253, 248, 0.78);
+  background:
+    radial-gradient(circle at 18% 12%, rgba(197, 110, 79, 0.18), transparent 32%),
+    linear-gradient(145deg, var(--green-dark), #061a18 58%, #04110f);
 }
 
-.site-footer div {
-  max-width: 640px;
+.site-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(255, 253, 248, 0.08) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 253, 248, 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.65), transparent 74%);
 }
 
-.site-footer strong {
+.site-footer > * {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.35fr) minmax(260px, 0.9fr) minmax(260px, 0.8fr);
+  gap: clamp(28px, 5vw, 70px);
+  align-items: start;
+}
+
+.footer-brand {
+  display: grid;
+  gap: 22px;
+  max-width: 660px;
+}
+
+.footer-logo {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid rgba(255, 253, 248, 0.16);
+  padding: 10px 14px 10px 10px;
+  background: rgba(255, 253, 248, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.footer-logo img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.footer-logo span {
+  display: grid;
+  gap: 2px;
+}
+
+.footer-logo strong {
   color: var(--paper-strong);
+  font-size: 1.14rem;
+  line-height: 1;
 }
 
-.site-footer a {
-  color: var(--gold);
+.footer-logo small {
+  color: rgba(255, 253, 248, 0.58);
+  font-size: 0.72rem;
   font-weight: 760;
+}
+
+.footer-brand p,
+.footer-cta p {
+  margin: 0;
+  max-width: 620px;
+  color: rgba(255, 253, 248, 0.72);
+  line-height: 1.7;
+}
+
+.footer-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.footer-badges span {
+  border: 1px solid rgba(255, 253, 248, 0.14);
+  padding: 9px 11px;
+  color: rgba(255, 253, 248, 0.84);
+  background: rgba(255, 253, 248, 0.07);
+  font-size: 0.76rem;
+  font-weight: 780;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 28px;
+}
+
+.footer-links div,
+.footer-cta {
+  display: grid;
+  gap: 12px;
+}
+
+.footer-links h3,
+.footer-cta h3 {
+  margin: 0 0 4px;
+  color: var(--paper-strong);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.footer-links a {
+  color: rgba(255, 253, 248, 0.68);
+  font-size: 0.94rem;
+  font-weight: 680;
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.footer-links a:hover {
+  color: var(--terracotta-soft);
+  transform: translateX(3px);
+}
+
+.footer-cta {
+  border: 1px solid rgba(255, 253, 248, 0.14);
+  clip-path: var(--bevel-card);
+  padding: 24px;
+  background:
+    linear-gradient(145deg, rgba(255, 253, 248, 0.12), rgba(255, 253, 248, 0.04)),
+    rgba(255, 253, 248, 0.06);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(18px);
+}
+
+.footer-cta .button {
+  width: fit-content;
+  min-height: 44px;
+  margin-top: 6px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: clamp(38px, 6vw, 70px);
+  border-top: 1px solid rgba(255, 253, 248, 0.12);
+  padding-top: 22px;
+  color: rgba(255, 253, 248, 0.52);
+  font-size: 0.84rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1710,6 +1857,19 @@ details p {
   }
 
   .site-footer {
+    padding-top: 52px;
+  }
+
+  .footer-main,
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-cta .button {
+    width: 100%;
+  }
+
+  .footer-bottom {
     flex-direction: column;
   }
 }

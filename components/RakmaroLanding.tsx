@@ -663,7 +663,9 @@ export default function RakmaroLanding() {
     <main>
       <header className={`site-header ${headerSolid ? "is-solid" : ""} ${menuOpen ? "is-open" : ""}`} aria-label="Rakmaro navigation">
         <a className="brand" href="#top" aria-label="Rakmaro">
-          <span className="brand-mark">R</span>
+          <span className="brand-mark">
+            <img src="/assets/rakmaro-logo.png" alt="" aria-hidden="true" />
+          </span>
           <span className="brand-text">
             <strong>Rakmaro</strong>
             <small>{label(locale, "UAE company setup", "UAE company setup")}</small>
@@ -1170,11 +1172,51 @@ export default function RakmaroLanding() {
       </section>
 
       <footer className="site-footer">
-        <div>
-          <strong>Rakmaro</strong>
-          <p>{copy.sections.footer}</p>
+        <div className="footer-main">
+          <div className="footer-brand">
+            <a className="footer-logo" href="#top" aria-label="Rakmaro">
+              <img src="/assets/rakmaro-logo.png" alt="" aria-hidden="true" />
+              <span>
+                <strong>Rakmaro</strong>
+                <small>{label(locale, "UAE company setup", "UAE company setup")}</small>
+              </span>
+            </a>
+            <p>{copy.sections.footer}</p>
+            <div className="footer-badges" aria-label={label(locale, "Garanties Rakmaro", "Rakmaro trust points")}>
+              <span>{label(locale, "Authorized reseller", "Authorized reseller")}</span>
+              <span>{label(locale, "Équipe francophone", "French-speaking team")}</span>
+              <span>{label(locale, "Société · Visa · Banque", "Company · Visa · Banking")}</span>
+            </div>
+          </div>
+          <nav className="footer-links" aria-label={label(locale, "Navigation footer", "Footer navigation")}>
+            <div>
+              <h3>{label(locale, "Explorer", "Explore")}</h3>
+              <a href="#handled">{copy.nav.handled}</a>
+              <a href="#offers">{copy.nav.offers}</a>
+              <a href="#estimate">{copy.nav.estimate}</a>
+              <a href="#faq">{copy.nav.faq}</a>
+            </div>
+            <div>
+              <h3>{label(locale, "Accompagnement", "Support")}</h3>
+              <a href="#ras-al-khaimah">{label(locale, "Ras Al Khaimah", "Ras Al Khaimah")}</a>
+              <a href="#banking">{label(locale, "Compte bancaire", "Business account")}</a>
+              <a href="#contact">{copy.nav.contact}</a>
+              <a href="#top">{label(locale, "Haut de page", "Back to top")}</a>
+            </div>
+          </nav>
+          <div className="footer-cta">
+            <h3>{label(locale, "Prêt à structurer votre installation ?", "Ready to structure your UAE move?")}</h3>
+            <p>{label(locale, "Recevez une première lecture de votre société, votre visa et votre compte bancaire.", "Get a first reading of your company setup, visa and business account path.")}</p>
+            <a className="button" href="#contact">
+              <Icon name="arrow" />
+              {copy.cta.qualify}
+            </a>
+          </div>
         </div>
-        <a href="#top">{label(locale, "Haut de page", "Back to top")}</a>
+        <div className="footer-bottom">
+          <span>© {new Date().getFullYear()} Rakmaro</span>
+          <span>{label(locale, "Conseil indépendant. Les autorités et banques restent décisionnaires.", "Independent advisory. Authorities and banks remain the decision-makers.")}</span>
+        </div>
       </footer>
     </main>
   );
