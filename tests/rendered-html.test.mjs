@@ -39,7 +39,7 @@ test("server-renders the Rakmaro landing page", async () => {
   assert.match(html, /Décrivez ce que votre société va vendre ou facturer|Describe what your company will sell or invoice/);
   assert.match(html, /Que va vendre ou facturer votre société|What will your company sell or invoice/);
   assert.match(html, /sous 7 jours|within 7 days/);
-  assert.match(html, /Agent autorisé RAKEZ|RAKEZ Authorized Agent/);
+  assert.match(html, /Partenaire RAKEZ - Agent Basic|RAKEZ Agent Basic Partner/);
   assert.doesNotMatch(html, /Étude humaine nécessaire/);
   assert.doesNotMatch(html, /activité RAKEZ|RAKEZ activity|Repères visuels|Repère visuel|Visual cues|visual cue|Depuis les Émirats|From the UAE|catalogue RAKEZ 2026/);
   assert.doesNotMatch(html, /Marzio Cerea/);
