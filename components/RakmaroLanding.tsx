@@ -156,6 +156,28 @@ const handledBlocks = [
 
 const handledIcons: IconName[] = ["building", "id", "landmark", "home"];
 
+const authorityBlocks = [
+  {
+    icon: "badge",
+    fr: ["Accès direct", "Votre demande est constituée et suivie depuis notre environnement professionnel RAKEZ."],
+    en: ["Direct access", "Your application is prepared and monitored through our professional RAKEZ environment."],
+  },
+  {
+    icon: "users",
+    fr: ["Un seul interlocuteur", "Vous ne passez pas d’un commercial à plusieurs prestataires : Rakmaro coordonne le parcours."],
+    en: ["One point of contact", "You do not move from a salesperson to multiple providers: Rakmaro coordinates the path."],
+  },
+  {
+    icon: "route",
+    fr: ["Suivi complet", "Société, visa, Emirates ID et compte bancaire sont traités comme un seul projet."],
+    en: ["Complete follow-up", "Company, visa, Emirates ID and banking are handled as one project."],
+  },
+] satisfies Array<{
+  icon: IconName;
+  fr: [string, string];
+  en: [string, string];
+}>;
+
 const uaeReasons = [
   {
     fr: ["Un cadre international", "Une base crédible pour vendre, recruter et opérer entre Europe, Afrique, Moyen-Orient et Asie."],
@@ -178,13 +200,19 @@ const uaeReasons = [
 const uaeReasonIcons: IconName[] = ["globe", "badge", "shield", "map"];
 
 const creationSteps = [
-  ["01", "Cadrage du projet", "Project scoping", "Activité, clients, associés, visas, budget et calendrier.", "Activity, clients, shareholders, visas, budget and timing."],
-  ["02", "Structure adaptée", "Suitable structure", "Choix de la route de création selon le besoin réel.", "Choice of setup route based on the real need."],
-  ["03", "Dossier complet", "Complete file", "Documents, identité, cohérence de l’activité et dépôt guidé.", "Documents, identity, activity coherence and guided filing."],
-  ["04", "Création et installation", "Setup and relocation", "Société, résidence, Emirates ID, compte professionnel et prochaines étapes.", "Company, residency, Emirates ID, business account and next steps."],
+  ["01", "Définir votre structure", "Define your structure", "Activité, clients, associés, visas, budget et calendrier sont cadrés avant dépôt.", "Activity, clients, shareholders, visas, budget and timing are scoped before filing."],
+  ["02", "Préparer et déposer", "Prepare and file", "Rakmaro prépare le dossier, vérifie la cohérence et suit son traitement avec les équipes concernées.", "Rakmaro prepares the file, checks coherence and follows the application with the relevant teams."],
+  ["03", "Créer puis installer", "Set up and relocate", "Société, résidence, Emirates ID, compte professionnel et priorités d’installation avancent dans le bon ordre.", "Company, residency, Emirates ID, business account and relocation priorities move forward in the right order."],
 ] as const;
 
-const creationStepIcons: IconName[] = ["search", "briefcase", "file", "route"];
+const creationStepIcons: IconName[] = ["search", "file", "route"];
+
+const speedSteps = [
+  ["Jour 1", "Day 1", "Validation", "Validation", "Activité, package, documents et route de création.", "Activity, package, documents and setup route."],
+  ["Jours 2 à 5", "Days 2 to 5", "Traitement", "Processing", "Dépôt, vérification et échanges administratifs.", "Filing, checks and administrative exchanges."],
+  ["Environ 7 jours", "About 7 days", "Licence", "Licence", "Réception possible de la licence pour un dossier standard complet.", "Possible licence issuance for a complete standard file."],
+  ["Ensuite", "Then", "Résidence & banque", "Residency & banking", "Visa, medical fitness, Emirates ID et compte professionnel.", "Visa, medical fitness, Emirates ID and business account."],
+] as const;
 
 const offers = [
   {
@@ -205,8 +233,8 @@ const offers = [
     image: "/assets/dubai-downtown-dawn.jpg",
     icon: "landmark",
     price: "AED 14,010",
-    fr: ["Installation entrepreneur", "Pour une installation plus complète, avec activité évolutive et accompagnement renforcé.", ["Société", "Visa", "Compte professionnel", "Priorités d’installation"]],
-    en: ["Founder relocation", "For a more complete move with a scalable activity and stronger support.", ["Company", "Visa", "Business account", "Relocation priorities"]],
+    fr: ["Installation complète", "Pour une prise en charge incluant société, résidence, compte professionnel et plan d’installation.", ["Société", "Résidence", "Préparation bancaire", "Plan d’installation"]],
+    en: ["Complete relocation", "For full support covering company, residency, business account preparation and relocation planning.", ["Company", "Residency", "Banking preparation", "Relocation plan"]],
   },
   {
     image: "/assets/dubai-night-reflection.jpg",
@@ -260,17 +288,23 @@ const videoStories = [
   en: [string, string];
 }>;
 
-const journey = [
-  ["01", "Diagnostic", "Diagnosis", "On clarifie ce que vous vendez, où vous vivez, qui facture et ce qu’il faut éviter.", "We clarify what you sell, where you live, who invoices and what to avoid."],
-  ["02", "Création", "Incorporation", "Rakmaro prépare la route de création et coordonne le dépôt du dossier.", "Rakmaro prepares the setup route and coordinates the filing."],
-  ["03", "Documents", "Documents", "Vous obtenez les documents corporate nécessaires pour avancer.", "You receive the corporate documents needed to move forward."],
-  ["04", "Résidence", "Residency", "Visa, medical fitness, Emirates ID et étapes administratives sont organisés.", "Visa, medical fitness, Emirates ID and admin steps are organized."],
-  ["05", "Banque", "Banking", "Après création de la société et obtention du visa, Rakmaro prépare l’ouverture du compte sous 7 jours.", "After company setup and visa approval, Rakmaro prepares account opening within 7 days."],
-  ["06", "Famille", "Family", "Si besoin, le parcours famille est anticipé après la résidence principale.", "If needed, the family path is anticipated after the main residency."],
-  ["07", "Installation", "Settlement", "Vous repartez avec les prochaines priorités pour vivre et opérer aux Émirats.", "You leave with the next priorities to live and operate in the UAE."],
+const testimonials = [
+  {
+    initials: "CL",
+    fr: ["Camille Laurent", "Consultante stratégie - France vers Dubai", "Société créée en 7 jours", "Rakmaro a pris en charge la société, le visa et la banque. J’avais une vision claire de l’étape suivante à chaque moment."],
+    en: ["Camille Laurent", "Strategy consultant - France to Dubai", "Company created in 7 days", "Rakmaro handled the company, visa and banking path. I knew exactly what the next step was at every moment."],
+  },
+  {
+    initials: "YR",
+    fr: ["Yanis Rahmani", "E-commerce - Maroc vers UAE", "Société + résidence", "Le dossier a été cadré sans jargon. L’équipe a compris mon activité, mes clients et la logique bancaire avant de lancer la création."],
+    en: ["Yanis Rahmani", "E-commerce - Morocco to UAE", "Company + residency", "The file was structured without jargon. The team understood my activity, clients and banking logic before launching setup."],
+  },
+  {
+    initials: "SB",
+    fr: ["Sarah Benali", "Software & services - Belgique", "Compte préparé après visa", "Je ne voulais pas gérer dix interlocuteurs. Rakmaro a coordonné le parcours et m’a aidée à prioriser les décisions importantes."],
+    en: ["Sarah Benali", "Software & services - Belgium", "Account prepared after visa", "I did not want to manage ten different contacts. Rakmaro coordinated the path and helped me prioritize the important decisions."],
+  },
 ] as const;
-
-const journeyIcons: IconName[] = ["search", "building", "file", "id", "landmark", "users", "home"];
 
 const faqs = [
   {
@@ -668,7 +702,7 @@ export default function RakmaroLanding() {
           </span>
           <span className="brand-text">
             <strong>Rakmaro</strong>
-            <small>{label(locale, "UAE company setup", "UAE company setup")}</small>
+            <small>{label(locale, "Agent RAKEZ autorisé", "Authorized RAKEZ Agent")}</small>
           </span>
         </a>
         <nav className="primary-nav">
@@ -697,6 +731,10 @@ export default function RakmaroLanding() {
           <a href="#offers" onClick={() => setMenuOpen(false)}>{copy.nav.offers}</a>
           <a href="#estimate" onClick={() => setMenuOpen(false)}>{copy.nav.estimate}</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>{copy.nav.contact}</a>
+          <button type="button" onClick={() => setLocale(locale === "fr" ? "en" : "fr")}>
+            <Icon name="language" />
+            {locale === "fr" ? "English" : "Français"}
+          </button>
         </div>
       </header>
 
@@ -713,6 +751,10 @@ export default function RakmaroLanding() {
           <div className="hero-scrim" />
           <div className="hero-content">
             <div className="hero-panel">
+              <div className="hero-authority-badge" aria-label={label(locale, "Statut RAKEZ", "RAKEZ status")}>
+                <img src="/assets/rakez-logo.png" alt="RAKEZ" />
+                <span>{label(locale, "Agent officiellement autorisé", "Officially authorized agent")}</span>
+              </div>
               <p className="eyebrow hero-eyebrow"><Icon name="spark" /> {copy.hero.overline}</p>
               <h1>{copy.hero.title}</h1>
               <p className="hero-copy">{copy.hero.body}</p>
@@ -731,6 +773,11 @@ export default function RakmaroLanding() {
                   <span key={proof}><Icon name={(["shield", "globe", "users", "bank"] as IconName[])[index] ?? "check"} />{proof}</span>
                 ))}
               </div>
+              <div className="hero-words" aria-hidden="true">
+                <span>{label(locale, "Créer", "Create")}</span>
+                <span>{label(locale, "S’installer", "Relocate")}</span>
+                <span>{label(locale, "Développer", "Grow")}</span>
+              </div>
             </div>
           </div>
           <div className="hero-scroll-cue" aria-hidden="true">
@@ -740,6 +787,53 @@ export default function RakmaroLanding() {
           <div className="frame-loader" aria-hidden="true">
             <span style={{ transform: `scaleX(${frameProgress / 100})` }} />
           </div>
+        </div>
+      </section>
+
+      <section id="authority" className="section authority-section">
+        <div className="authority-shell">
+          <div className="authority-copy">
+            <p className="eyebrow">{label(locale, "Confiance", "Trust")}</p>
+            <h2>{label(locale, "Votre dossier traité par un agent RAKEZ autorisé.", "Your file handled by an authorized RAKEZ agent.")}</h2>
+            <p>
+              {label(
+                locale,
+                "Rakmaro est autorisé à accompagner ses clients dans la constitution et le suivi de leur société auprès de Ras Al Khaimah Economic Zone. Nous préparons votre configuration, constituons votre dossier depuis notre accès professionnel et suivons directement son traitement.",
+                "Rakmaro is authorized to support clients through company setup and follow-up with Ras Al Khaimah Economic Zone. We prepare your configuration, build your file through our professional access and track its processing directly.",
+              )}
+            </p>
+          </div>
+          <div className="authority-proof">
+            <img src="/assets/rakez-logo.png" alt="RAKEZ - Ras Al Khaimah Economic Zone" loading="lazy" />
+            <strong>{label(locale, "Agent RAKEZ autorisé", "Authorized RAKEZ Agent")}</strong>
+            <span>{label(locale, "Société · Résidence · Compte professionnel", "Company · Residency · Business account")}</span>
+          </div>
+        </div>
+        <div className="proof-grid authority-grid">
+          {authorityBlocks.map((block) => (
+            <article className="proof-card" key={block.fr[0]}>
+              <span className="card-icon"><Icon name={block.icon} /></span>
+              <h3>{label(locale, block.fr[0], block.en[0])}</h3>
+              <p>{label(locale, block.fr[1], block.en[1])}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section id="speed" className="section speed-section">
+        <div className="section-heading">
+          <p className="eyebrow">{label(locale, "Vitesse", "Speed")}</p>
+          <h2>{label(locale, "Votre projet peut avancer en quelques jours.", "Your project can move forward in a few days.")}</h2>
+          <p>{label(locale, "Délais indicatifs pour les dossiers standards complets, sans autorisation externe ni document manquant.", "Indicative timelines for complete standard files, without external approval or missing documents.")}</p>
+        </div>
+        <div className="speed-grid">
+          {speedSteps.map(([frTime, enTime, frTitle, enTitle, frText, enText]) => (
+            <article className="speed-card" key={frTime}>
+              <span>{label(locale, frTime, enTime)}</span>
+              <h3>{label(locale, frTitle, enTitle)}</h3>
+              <p>{label(locale, frText, enText)}</p>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -798,7 +892,7 @@ export default function RakmaroLanding() {
           <h2>{copy.sections.howTitle}</h2>
           <p>{copy.sections.howBody}</p>
         </div>
-        <div className="process-grid four">
+        <div className="process-grid three">
           {creationSteps.map(([step, frTitle, enTitle, frText, enText], index) => (
             <article className="process-card" key={step}>
               <span className="step-index">{step}</span>
@@ -807,6 +901,36 @@ export default function RakmaroLanding() {
               <p>{label(locale, frText, enText)}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section id="testimonials" className="section testimonial-section">
+        <div className="section-heading">
+          <p className="eyebrow">{copy.sections.journeyEyebrow}</p>
+          <h2>{copy.sections.journeyTitle}</h2>
+          <p>
+            {label(
+              locale,
+              "Structure temporaire avec témoignages fictifs : l’objectif est de poser le format avant d’intégrer les vrais retours clients.",
+              "Temporary structure with placeholder testimonials: the goal is to set the format before adding real client feedback.",
+            )}
+          </p>
+        </div>
+        <div className="testimonial-grid">
+          {testimonials.map((testimonial) => {
+            const item = testimonial[locale];
+            return (
+              <article className="testimonial-card" key={testimonial.initials}>
+                <div className="testimonial-avatar" aria-hidden="true">{testimonial.initials}</div>
+                <blockquote>“{item[3]}”</blockquote>
+                <div>
+                  <strong>{item[0]}</strong>
+                  <span>{item[1]}</span>
+                  <em>{item[2]}</em>
+                </div>
+              </article>
+            );
+          })}
         </div>
       </section>
 
@@ -826,8 +950,8 @@ export default function RakmaroLanding() {
           <h2>{copy.sections.offersTitle}</h2>
           <p>{copy.sections.offersBody}</p>
         </div>
-        <div className="offer-grid">
-          {offers.map((offer) => {
+        <div className="offer-grid public-offers">
+          {offers.slice(0, 3).map((offer) => {
             const item = offer[locale];
             return (
               <article className="offer-card" key={item[0] as string}>
@@ -852,22 +976,25 @@ export default function RakmaroLanding() {
             );
           })}
         </div>
-      </section>
-
-      <section id="journey" className="section process-section">
-        <div className="section-heading">
-          <p className="eyebrow">{copy.sections.journeyEyebrow}</p>
-          <h2>{copy.sections.journeyTitle}</h2>
-        </div>
-        <div className="process-grid">
-          {journey.map(([step, frTitle, enTitle, frText, enText], index) => (
-            <article className="process-card" key={step}>
-              <span className="step-index">{step}</span>
-              <span className="card-icon"><Icon name={journeyIcons[index] ?? "check"} /></span>
-              <h3>{label(locale, frTitle, enTitle)}</h3>
-              <p>{label(locale, frText, enText)}</p>
-            </article>
-          ))}
+        <div className="special-offer">
+          {(() => {
+            const offer = offers[3];
+            const item = offer[locale];
+            return (
+              <>
+                <span className="offer-icon"><Icon name={offer.icon} /></span>
+                <div>
+                  <p className="eyebrow">{label(locale, "Sur étude", "On review")}</p>
+                  <h3>{item[0] as string}</h3>
+                  <p>{item[1] as string}</p>
+                </div>
+                <a className="button button-muted" href="#contact">
+                  <Icon name="arrow" />
+                  {label(locale, "Vérifier l’éligibilité", "Check eligibility")}
+                </a>
+              </>
+            );
+          })()}
         </div>
       </section>
 

@@ -31,11 +31,14 @@ test("server-renders the Rakmaro landing page", async () => {
   const html = await response.text();
   assert.match(html, /Rakmaro/);
   assert.match(html, /AED 6,010/);
-  assert.match(html, /Ouvrez votre société aux Émirats|Open your UAE company/);
+  assert.match(html, /Créez votre société aux Émirats|Set up your UAE company/);
   assert.match(html, /visa de résidence|residence visa/);
   assert.match(html, /Emirates ID/);
   assert.match(html, /compte professionnel|business account/);
   assert.match(html, /hero-canvas/);
+  assert.match(html, /Votre dossier traité par un agent RAKEZ autorisé|Your file handled by an authorized RAKEZ agent/);
+  assert.match(html, /Votre projet peut avancer en quelques jours|Your project can move forward in a few days/);
+  assert.match(html, /Structure temporaire avec témoignages fictifs|Temporary structure with placeholder testimonials/);
   assert.match(html, /Décrivez ce que votre société va vendre ou facturer|Describe what your company will sell or invoice/);
   assert.match(html, /Que va vendre ou facturer votre société|What will your company sell or invoice/);
   assert.match(html, /sous 7 jours|within 7 days/);
