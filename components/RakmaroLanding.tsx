@@ -85,6 +85,8 @@ const defaultAnswers: SimulatorAnswers = {
   timeline: "30-days",
 };
 
+const WHATSAPP_URL = "https://wa.me/971000000000?text=Bonjour%20Rakmaro%2C%20je%20souhaite%20parler%20de%20mon%20projet%20de%20soci%C3%A9t%C3%A9%20aux%20%C3%89mirats.";
+
 const activityCategories = [
   ["consulting", "Conseil / prestation", "Consulting / services"],
   ["digital", "Digital / logiciel", "Digital / software"],
@@ -145,8 +147,8 @@ const handledBlocks = [
     en: ["Obtain residency", "Residence visa, medical fitness, Emirates ID and administrative steps through relocation."],
   },
   {
-    fr: ["Ouvrir votre compte professionnel", "Après création de la société et obtention du visa, Rakmaro prépare une ouverture bancaire sous 7 jours avec un dossier clair."],
-    en: ["Open your business account", "After company setup and visa approval, Rakmaro prepares a business account opening within 7 days with a clear file."],
+    fr: ["Préparer votre compte professionnel", "Après création de la société et obtention du visa, Rakmaro prépare un dossier bancaire clair pour avancer rapidement."],
+    en: ["Prepare your business account", "After company setup and visa approval, Rakmaro prepares a clear banking file to move quickly."],
   },
   {
     fr: ["Vous installer aux Émirats", "Lecture pratique de votre arrivée : famille, calendrier, documents, priorités et décisions à prendre dans le bon ordre."],
@@ -178,27 +180,6 @@ const authorityBlocks = [
   en: [string, string];
 }>;
 
-const uaeReasons = [
-  {
-    fr: ["Un cadre international", "Une base crédible pour vendre, recruter et opérer entre Europe, Afrique, Moyen-Orient et Asie."],
-    en: ["An international base", "A credible base to sell, hire and operate between Europe, Africa, the Middle East and Asia."],
-  },
-  {
-    fr: ["Résidence possible", "La création de société peut ouvrir un parcours de résidence, sous réserve d’éligibilité et de validation."],
-    en: ["Possible residency", "Company setup can open a residency path, subject to eligibility and approval."],
-  },
-  {
-    fr: ["Fiscalité lisible", "Un environnement attractif, à structurer proprement selon votre situation personnelle et professionnelle."],
-    en: ["Clearer tax environment", "An attractive environment that must be structured properly for your personal and business situation."],
-  },
-  {
-    fr: ["Vie sur place", "Dubaï, Abu Dhabi, Ras Al Khaimah ou autre émirat : le lieu de vie se pense avec le projet."],
-    en: ["Life on the ground", "Dubai, Abu Dhabi, Ras Al Khaimah or another emirate: where you live is planned with the project."],
-  },
-];
-
-const uaeReasonIcons: IconName[] = ["globe", "badge", "shield", "map"];
-
 const creationSteps = [
   ["01", "Définir votre structure", "Define your structure", "Activité, clients, associés, visas, budget et calendrier sont cadrés avant dépôt.", "Activity, clients, shareholders, visas, budget and timing are scoped before filing."],
   ["02", "Préparer et déposer", "Prepare and file", "Rakmaro prépare le dossier, vérifie la cohérence et suit son traitement avec les équipes concernées.", "Rakmaro prepares the file, checks coherence and follows the application with the relevant teams."],
@@ -206,13 +187,6 @@ const creationSteps = [
 ] as const;
 
 const creationStepIcons: IconName[] = ["search", "file", "route"];
-
-const speedSteps = [
-  ["Jour 1", "Day 1", "Validation", "Validation", "Activité, package, documents et route de création.", "Activity, package, documents and setup route."],
-  ["Jours 2 à 5", "Days 2 to 5", "Traitement", "Processing", "Dépôt, vérification et échanges administratifs.", "Filing, checks and administrative exchanges."],
-  ["Environ 7 jours", "About 7 days", "Licence", "Licence", "Réception possible de la licence pour un dossier standard complet.", "Possible licence issuance for a complete standard file."],
-  ["Ensuite", "Then", "Résidence & banque", "Residency & banking", "Visa, medical fitness, Emirates ID et compte professionnel.", "Visa, medical fitness, Emirates ID and business account."],
-] as const;
 
 const offers = [
   {
@@ -270,8 +244,8 @@ const videoStories = [
     media: "/media/burj-khalifa-night.mp4",
     poster: "/assets/dubai-night-reflection.jpg",
     icon: "landmark",
-    fr: ["Compte professionnel", "Une fois la société créée et le visa obtenu, l’ouverture bancaire peut être préparée sous 7 jours."],
-    en: ["Business account", "Once the company is created and the visa is obtained, account opening can be prepared within 7 days."],
+    fr: ["Compte professionnel", "Une fois la société créée et le visa obtenu, le dossier bancaire peut être préparé et lancé rapidement."],
+    en: ["Business account", "Once the company is created and the visa is obtained, the banking file can be prepared and launched quickly."],
   },
   {
     media: "/media/sheikh-zayed-mosque.mp4",
@@ -288,23 +262,27 @@ const videoStories = [
   en: [string, string];
 }>;
 
-const testimonials = [
+const clientCases = [
   {
-    initials: "CL",
-    fr: ["Camille Laurent", "Consultante stratégie - France vers Dubai", "Société créée en 7 jours", "Rakmaro a pris en charge la société, le visa et la banque. J’avais une vision claire de l’étape suivante à chaque moment."],
-    en: ["Camille Laurent", "Strategy consultant - France to Dubai", "Company created in 7 days", "Rakmaro handled the company, visa and banking path. I knew exactly what the next step was at every moment."],
+    icon: "briefcase",
+    fr: ["Consultant indépendant", "France vers Dubaï", "Création de société, résidence et structuration bancaire."],
+    en: ["Independent consultant", "France to Dubai", "Company setup, residency and banking structure."],
   },
   {
-    initials: "YR",
-    fr: ["Yanis Rahmani", "E-commerce - Maroc vers UAE", "Société + résidence", "Le dossier a été cadré sans jargon. L’équipe a compris mon activité, mes clients et la logique bancaire avant de lancer la création."],
-    en: ["Yanis Rahmani", "E-commerce - Morocco to UAE", "Company + residency", "The file was structured without jargon. The team understood my activity, clients and banking logic before launching setup."],
+    icon: "package",
+    fr: ["E-commerce", "Europe vers UAE", "Licence, visa et préparation des éléments attendus par la banque."],
+    en: ["E-commerce", "Europe to UAE", "Licence, visa and preparation of the items expected by the bank."],
   },
   {
-    initials: "SB",
-    fr: ["Sarah Benali", "Software & services - Belgique", "Compte préparé après visa", "Je ne voulais pas gérer dix interlocuteurs. Rakmaro a coordonné le parcours et m’a aidée à prioriser les décisions importantes."],
-    en: ["Sarah Benali", "Software & services - Belgium", "Account prepared after visa", "I did not want to manage ten different contacts. Rakmaro coordinated the path and helped me prioritize the important decisions."],
+    icon: "globe",
+    fr: ["Services digitaux", "Belgique vers UAE", "Parcours société, résidence et installation coordonné par une équipe francophone."],
+    en: ["Digital services", "Belgium to UAE", "Company, residency and relocation path coordinated by a French-speaking team."],
   },
-] as const;
+] satisfies Array<{
+  icon: IconName;
+  fr: [string, string, string];
+  en: [string, string, string];
+}>;
 
 const faqs = [
   {
@@ -322,8 +300,8 @@ const faqs = [
   {
     frQ: "Le compte bancaire est-il garanti ?",
     enQ: "Is the bank account guaranteed?",
-    frA: "Après création de la société et obtention du visa, Rakmaro prépare l’ouverture du compte bancaire sous 7 jours. La banque reste décisionnaire, mais la résidence et un dossier cohérent rendent le parcours beaucoup plus fluide.",
-    enA: "After company setup and visa approval, Rakmaro prepares business account opening within 7 days. The bank remains the decision-maker, but residency and a coherent file make the path much smoother.",
+    frA: "Non, la banque reste décisionnaire. Rakmaro prépare le dossier bancaire dès la création : documents corporate, activité, profil des associés, clients et logique économique. La résidence et un dossier cohérent rendent le parcours beaucoup plus fluide.",
+    enA: "No, the bank remains the decision-maker. Rakmaro prepares the banking file from setup: corporate documents, activity, shareholder profile, clients and business logic. Residency and a coherent file make the path much smoother.",
   },
   {
     frQ: "Les prix affichés sont-ils définitifs ?",
@@ -702,13 +680,14 @@ export default function RakmaroLanding() {
           </span>
           <span className="brand-text">
             <strong>Rakmaro</strong>
-            <small>{label(locale, "Agent RAKEZ autorisé", "Authorized RAKEZ Agent")}</small>
+            <small>{label(locale, "Création de société aux Émirats", "UAE company setup")}</small>
           </span>
         </a>
         <nav className="primary-nav">
           <a href="#handled">{copy.nav.handled}</a>
-          <a href="#why-uae">{copy.nav.whyUae}</a>
           <a href="#offers">{copy.nav.offers}</a>
+          <a href="#how">{copy.sections.howEyebrow}</a>
+          <a href="#ras-al-khaimah">{copy.nav.whyUae}</a>
           <a href="#estimate">{copy.nav.estimate}</a>
           <a href="#faq">{copy.nav.faq}</a>
         </nav>
@@ -721,22 +700,34 @@ export default function RakmaroLanding() {
             <Icon name="arrow" />
             {copy.cta.qualify}
           </a>
+          <a className="icon-button whatsapp-link" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
+            <Icon name="plane" />
+            {label(locale, "Parler sur WhatsApp", "Talk on WhatsApp")}
+          </a>
           <button className="icon-button menu-toggle" type="button" onClick={() => setMenuOpen((current) => !current)} aria-label={label(locale, "Ouvrir le menu", "Open menu")} aria-expanded={menuOpen}>
             <Icon name={menuOpen ? "x" : "menu"} />
           </button>
         </div>
         <div className="mobile-nav" hidden={!menuOpen}>
           <a href="#handled" onClick={() => setMenuOpen(false)}>{copy.nav.handled}</a>
-          <a href="#why-uae" onClick={() => setMenuOpen(false)}>{copy.nav.whyUae}</a>
           <a href="#offers" onClick={() => setMenuOpen(false)}>{copy.nav.offers}</a>
+          <a href="#how" onClick={() => setMenuOpen(false)}>{copy.sections.howEyebrow}</a>
+          <a href="#ras-al-khaimah" onClick={() => setMenuOpen(false)}>{copy.nav.whyUae}</a>
           <a href="#estimate" onClick={() => setMenuOpen(false)}>{copy.nav.estimate}</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>{copy.nav.contact}</a>
+          <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>
+            <Icon name="plane" />
+            {label(locale, "Parler sur WhatsApp", "Talk on WhatsApp")}
+          </a>
           <button type="button" onClick={() => setLocale(locale === "fr" ? "en" : "fr")}>
             <Icon name="language" />
-            {locale === "fr" ? "English" : "Français"}
+            {locale === "fr" ? "Anglais" : "Français"}
           </button>
         </div>
       </header>
+      <button className="floating-menu-toggle" type="button" onClick={() => setMenuOpen((current) => !current)} aria-label={label(locale, "Ouvrir le menu", "Open menu")} aria-expanded={menuOpen}>
+        <Icon name={menuOpen ? "x" : "menu"} />
+      </button>
 
       <section id="top" ref={heroRef} className="hero-scroll">
         <div className="hero-sticky">
@@ -753,7 +744,7 @@ export default function RakmaroLanding() {
             <div className="hero-panel">
               <div className="hero-authority-badge" aria-label={label(locale, "Statut RAKEZ", "RAKEZ status")}>
                 <img src="/assets/rakez-logo.png" alt="RAKEZ" />
-                <span>{label(locale, "Agent officiellement autorisé", "Officially authorized agent")}</span>
+                <span>{label(locale, "Agent RAKEZ autorisé", "Authorized RAKEZ Agent")}</span>
               </div>
               <p className="eyebrow hero-eyebrow"><Icon name="spark" /> {copy.hero.overline}</p>
               <h1>{copy.hero.title}</h1>
@@ -781,7 +772,7 @@ export default function RakmaroLanding() {
             </div>
           </div>
           <div className="hero-scroll-cue" aria-hidden="true">
-            <span>{label(locale, "Scroll", "Scroll")}</span>
+            <span>{label(locale, "Défiler", "Scroll")}</span>
             <strong>{label(locale, "La ville avance avec vous", "The city moves with you")}</strong>
           </div>
           <div className="frame-loader" aria-hidden="true">
@@ -820,23 +811,6 @@ export default function RakmaroLanding() {
         </div>
       </section>
 
-      <section id="speed" className="section speed-section">
-        <div className="section-heading">
-          <p className="eyebrow">{label(locale, "Vitesse", "Speed")}</p>
-          <h2>{label(locale, "Votre projet peut avancer en quelques jours.", "Your project can move forward in a few days.")}</h2>
-          <p>{label(locale, "Délais indicatifs pour les dossiers standards complets, sans autorisation externe ni document manquant.", "Indicative timelines for complete standard files, without external approval or missing documents.")}</p>
-        </div>
-        <div className="speed-grid">
-          {speedSteps.map(([frTime, enTime, frTitle, enTitle, frText, enText]) => (
-            <article className="speed-card" key={frTime}>
-              <span>{label(locale, frTime, enTime)}</span>
-              <h3>{label(locale, frTitle, enTitle)}</h3>
-              <p>{label(locale, frText, enText)}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section id="handled" className="section handled-section">
         <div className="section-heading">
           <p className="eyebrow">{copy.sections.handledEyebrow}</p>
@@ -865,82 +839,6 @@ export default function RakmaroLanding() {
               </div>
             </article>
           ))}
-        </div>
-      </section>
-
-      <section id="why-uae" className="section split-section">
-        <div>
-          <p className="eyebrow">{copy.sections.whyUaeEyebrow}</p>
-          <h2>{copy.sections.whyUaeTitle}</h2>
-          <p>{copy.sections.whyUaeBody}</p>
-          <div className="feature-grid compact">
-            {uaeReasons.map((reason, index) => (
-              <article className="mini-card" key={reason.fr[0]}>
-                <span className="card-icon"><Icon name={uaeReasonIcons[index] ?? "check"} /></span>
-                <h3>{label(locale, reason.fr[0], reason.en[0])}</h3>
-                <p>{label(locale, reason.fr[1], reason.en[1])}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-        <img className="section-image" src="/assets/dubai-downtown-dawn.jpg" alt={label(locale, "Vue du skyline de Dubai", "Dubai skyline view")} loading="lazy" />
-      </section>
-
-      <section id="how" className="section process-section">
-        <div className="section-heading">
-          <p className="eyebrow">{copy.sections.howEyebrow}</p>
-          <h2>{copy.sections.howTitle}</h2>
-          <p>{copy.sections.howBody}</p>
-        </div>
-        <div className="process-grid three">
-          {creationSteps.map(([step, frTitle, enTitle, frText, enText], index) => (
-            <article className="process-card" key={step}>
-              <span className="step-index">{step}</span>
-              <span className="card-icon"><Icon name={creationStepIcons[index] ?? "check"} /></span>
-              <h3>{label(locale, frTitle, enTitle)}</h3>
-              <p>{label(locale, frText, enText)}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section id="testimonials" className="section testimonial-section">
-        <div className="section-heading">
-          <p className="eyebrow">{copy.sections.journeyEyebrow}</p>
-          <h2>{copy.sections.journeyTitle}</h2>
-          <p>
-            {label(
-              locale,
-              "Structure temporaire avec témoignages fictifs : l’objectif est de poser le format avant d’intégrer les vrais retours clients.",
-              "Temporary structure with placeholder testimonials: the goal is to set the format before adding real client feedback.",
-            )}
-          </p>
-        </div>
-        <div className="testimonial-grid">
-          {testimonials.map((testimonial) => {
-            const item = testimonial[locale];
-            return (
-              <article className="testimonial-card" key={testimonial.initials}>
-                <div className="testimonial-avatar" aria-hidden="true">{testimonial.initials}</div>
-                <blockquote>“{item[3]}”</blockquote>
-                <div>
-                  <strong>{item[0]}</strong>
-                  <span>{item[1]}</span>
-                  <em>{item[2]}</em>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      <section id="ras-al-khaimah" className="section dark-band">
-        <img className="section-image" src="/assets/rak-corniche-morning.jpg" alt={label(locale, "Corniche de Ras Al Khaimah", "Ras Al Khaimah corniche")} loading="lazy" />
-        <div>
-          <p className="eyebrow">{copy.sections.rakEyebrow}</p>
-          <h2>{copy.sections.rakTitle}</h2>
-          <p>{copy.sections.rakBody}</p>
-          <p className="subtle-note">{copy.sections.rakezNote}</p>
         </div>
       </section>
 
@@ -995,6 +893,34 @@ export default function RakmaroLanding() {
               </>
             );
           })()}
+        </div>
+      </section>
+
+      <section id="how" className="section process-section">
+        <div className="section-heading">
+          <p className="eyebrow">{copy.sections.howEyebrow}</p>
+          <h2>{copy.sections.howTitle}</h2>
+          <p>{copy.sections.howBody}</p>
+        </div>
+        <div className="process-grid three">
+          {creationSteps.map(([step, frTitle, enTitle, frText, enText], index) => (
+            <article className="process-card" key={step}>
+              <span className="step-index">{step}</span>
+              <span className="card-icon"><Icon name={creationStepIcons[index] ?? "check"} /></span>
+              <h3>{label(locale, frTitle, enTitle)}</h3>
+              <p>{label(locale, frText, enText)}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section id="ras-al-khaimah" className="section dark-band">
+        <img className="section-image" src="/assets/rak-corniche-morning.jpg" alt={label(locale, "Corniche de Ras Al Khaimah", "Ras Al Khaimah corniche")} loading="lazy" />
+        <div>
+          <p className="eyebrow">{copy.sections.rakEyebrow}</p>
+          <h2>{copy.sections.rakTitle}</h2>
+          <p>{copy.sections.rakBody}</p>
+          <p className="subtle-note">{copy.sections.rakezNote}</p>
         </div>
       </section>
 
@@ -1185,10 +1111,14 @@ export default function RakmaroLanding() {
               </div>
             ) : (
               <div className="recommendation is-neutral">
-                <span>{label(locale, "Estimation prête", "Estimate ready")}</span>
-                <h3>{label(locale, "Sélectionnez l’activité la plus proche", "Select the closest activity")}</h3>
-                <strong>{label(locale, "Budget affiché après sélection", "Budget shown after selection")}</strong>
-                <p>{label(locale, "L’outil combine l’activité choisie, le nombre de visas, les associés, le local, les clients et votre calendrier pour proposer une route probable.", "The tool combines the selected activity, visas, shareholders, premises, clients and timeline to suggest a probable route.")}</p>
+                <span>{label(locale, "Parcours guidé", "Guided path")}</span>
+                <h3>{label(locale, "Obtenez une première estimation en 60 secondes", "Get a first estimate in 60 seconds")}</h3>
+                <strong>{label(locale, "Société seule, résidence ou installation complète", "Company only, residency or complete relocation")}</strong>
+                <p>{label(locale, "Répondez à quelques questions pour connaître la route probablement adaptée : société seule, société + résidence ou installation complète.", "Answer a few questions to identify the likely route: company only, company + residency or complete relocation.")}</p>
+                <a className="button button-muted estimate-start" href="#activity-results">
+                  <Icon name="arrow" />
+                  {label(locale, "Commencer l’estimation", "Start the estimate")}
+                </a>
                 <ul>
                   <li>{label(locale, "Recherche par métier", "Business activity search")}</li>
                   <li>{label(locale, "Package probable", "Probable package")}</li>
@@ -1201,6 +1131,39 @@ export default function RakmaroLanding() {
         </div>
       </section>
 
+      <section id="client-cases" className="section testimonial-section">
+        <div className="section-heading">
+          <p className="eyebrow">{label(locale, "Cas clients", "Client cases")}</p>
+          <h2>{label(locale, "Ils nous font confiance pour leur installation aux Émirats", "They trust us for their UAE relocation")}</h2>
+          <p>
+            {label(
+              locale,
+              "Rakmaro a déjà accompagné des entrepreneurs dans la création de leur société, leur résidence et leur structuration bancaire aux Émirats.",
+              "Rakmaro has supported entrepreneurs with company setup, residency and banking structure in the UAE.",
+            )}
+          </p>
+        </div>
+        <div className="testimonial-grid">
+          {clientCases.map((clientCase) => {
+            const item = clientCase[locale];
+            return (
+              <article className="testimonial-card client-case-card" key={item[0]}>
+                <span className="card-icon"><Icon name={clientCase.icon} /></span>
+                <h3>{item[0]}</h3>
+                <strong>{item[1]}</strong>
+                <p>{item[2]}</p>
+              </article>
+            );
+          })}
+        </div>
+        <div className="section-cta">
+          <a className="button" href="#contact">
+            <Icon name="arrow" />
+            {label(locale, "Voir si mon projet est éligible", "Check if my project is eligible")}
+          </a>
+        </div>
+      </section>
+
       <section id="banking" className="section dark-band">
         <div>
           <p className="eyebrow">{copy.sections.bankEyebrow}</p>
@@ -1209,21 +1172,6 @@ export default function RakmaroLanding() {
           <div className="note-box">{copy.sections.bankNote}</div>
         </div>
         <img className="section-image" src="/assets/abu-dhabi-dawn.jpg" alt={label(locale, "Vue d'Abu Dhabi", "Abu Dhabi view")} loading="lazy" />
-      </section>
-
-      <section id="founder" className="section founder-section">
-        <img className="section-image" src="/assets/palm-jumeirah-aerial.jpg" alt={label(locale, "Vue aérienne de Palm Jumeirah", "Palm Jumeirah aerial view")} loading="lazy" />
-        <div>
-          <p className="eyebrow">{copy.sections.founderEyebrow}</p>
-          <h2>{copy.sections.founderTitle}</h2>
-          <p>{copy.sections.founderBody}</p>
-          <div className="founder-tags">
-            <span>Français</span>
-            <span>English</span>
-            <span>{label(locale, "Authorized reseller", "Authorized reseller")}</span>
-            <span>{label(locale, "Présence UAE", "UAE presence")}</span>
-          </div>
-        </div>
       </section>
 
       <section id="faq" className="section faq-section">
@@ -1247,6 +1195,10 @@ export default function RakmaroLanding() {
           <h2>{copy.sections.contactTitle}</h2>
           <p>{copy.sections.contactBody}</p>
           <div className="contact-note">{copy.sections.contactNote}</div>
+          <a className="button whatsapp-contact" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
+            <Icon name="plane" />
+            {label(locale, "Parler sur WhatsApp", "Talk on WhatsApp")}
+          </a>
         </div>
         <form className="lead-form" onSubmit={submitLead}>
           <input name="website" tabIndex={-1} autoComplete="off" className="honeypot" aria-hidden="true" />
@@ -1305,7 +1257,7 @@ export default function RakmaroLanding() {
               <img src="/assets/rakmaro-logo.png" alt="" aria-hidden="true" />
               <span>
                 <strong>Rakmaro</strong>
-                <small>{label(locale, "UAE company setup", "UAE company setup")}</small>
+                <small>{label(locale, "Création de société aux Émirats", "UAE company setup")}</small>
               </span>
             </a>
             <p>{copy.sections.footer}</p>
@@ -1358,6 +1310,10 @@ export default function RakmaroLanding() {
           <span>{label(locale, "Conseil indépendant. Les autorités et banques restent décisionnaires.", "Independent advisory. Authorities and banks remain the decision-makers.")}</span>
         </div>
       </footer>
+      <a className="floating-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
+        <Icon name="plane" />
+        <span>{label(locale, "Parler sur WhatsApp", "Talk on WhatsApp")}</span>
+      </a>
     </main>
   );
 }

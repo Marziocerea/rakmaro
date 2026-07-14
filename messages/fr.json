@@ -1,7 +1,7 @@
 {
   "nav": {
     "handled": "Accompagnement",
-    "whyUae": "Pourquoi les Émirats",
+    "whyUae": "Ras Al Khaimah",
     "offers": "Offres",
     "estimate": "Estimer",
     "faq": "FAQ",
@@ -13,14 +13,13 @@
     "contact": "Envoyer mon projet"
   },
   "hero": {
-    "overline": "Agent RAKEZ autorisé",
-    "title": "Créez votre société aux Émirats. Installez-vous en toute sérénité.",
-    "body": "Rakmaro prend en charge votre société, votre visa de résidence, votre Emirates ID et la préparation de votre compte professionnel. Avec un dossier complet, la société peut être créée en environ 7 jours.",
+    "overline": "Création de société · Résidence · Compte professionnel",
+    "title": "Créez votre société aux Émirats. Rakmaro s’occupe du parcours.",
+    "body": "Société, résidence, Emirates ID et compte professionnel : Rakmaro vous accompagne de la première décision jusqu’à votre installation aux Émirats.",
     "proofs": [
-      "Agent RAKEZ autorisé",
+      "Société possible en environ 7 jours avec un dossier complet",
       "Société à partir de 6 010 AED",
-      "Création possible à distance",
-      "Accompagnement francophone"
+      "Création possible à distance"
     ]
   },
   "sections": {
@@ -50,9 +49,9 @@
     "estimateResultLabel": "Configuration probablement adaptée",
     "estimateValidation": "Rakmaro doit encore confirmer l’activité exacte, le nombre d’associés, votre besoin de local et la nature de vos clients.",
     "bankEyebrow": "Compte professionnel",
-    "bankTitle": "Ouverture de compte bancaire sous 7 jours après société et visa.",
-    "bankBody": "Une fois la société créée et le visa de résidence obtenu, Rakmaro prépare l’ouverture du compte bancaire sous 7 jours avec les éléments attendus : activité claire, documents corporate, profil des associés, clients et logique économique.",
-    "bankNote": "La résidence change tout : elle rassure la banque, simplifie les contrôles KYC et donne au dossier une cohérence beaucoup plus forte.",
+    "bankTitle": "Compte professionnel préparé dès la création",
+    "bankBody": "Une fois la société créée et le visa obtenu, Rakmaro prépare le dossier bancaire pour avancer rapidement : documents corporate, activité, profil des associés, clients et logique économique.",
+    "bankNote": "L’ouverture et les délais restent soumis à la validation de la banque. Pour les dossiers standards, la demande peut généralement être préparée et lancée sous quelques jours après création de la société et obtention du visa.",
     "founderEyebrow": "Équipe francophone",
     "founderTitle": "Une équipe qui parle votre langue et connaît le terrain.",
     "founderBody": "Rakmaro accompagne les entrepreneurs francophones et internationaux avec une lecture concrète du projet, des étapes administratives et des décisions à prendre avant de s’installer aux Émirats.",

@@ -1,7 +1,7 @@
 {
   "nav": {
     "handled": "Support",
-    "whyUae": "Why the UAE",
+    "whyUae": "Ras Al Khaimah",
     "offers": "Offers",
     "estimate": "Estimate",
     "faq": "FAQ",
@@ -13,14 +13,13 @@
     "contact": "Send my project"
   },
   "hero": {
-    "overline": "Authorized RAKEZ Agent",
-    "title": "Set up your UAE company. Relocate with confidence.",
-    "body": "Rakmaro handles your company setup, residence visa, Emirates ID and business account preparation. With a complete file, the company can be created in about 7 days.",
+    "overline": "Company setup · Residency · Business account",
+    "title": "Set up your UAE company. Rakmaro handles the path.",
+    "body": "Company, residency, Emirates ID and business account: Rakmaro supports you from the first decision through your UAE relocation.",
     "proofs": [
-      "Authorized RAKEZ Agent",
+      "Company possible in about 7 days with a complete file",
       "Company from 6,010 AED",
-      "Remote setup possible",
-      "French and English support"
+      "Remote setup possible"
     ]
   },
   "sections": {
@@ -50,9 +49,9 @@
     "estimateResultLabel": "Probably suitable configuration",
     "estimateValidation": "Rakmaro still needs to confirm the exact activity, number of shareholders, premises requirement and nature of your clients.",
     "bankEyebrow": "Business account",
-    "bankTitle": "Business account opening within 7 days after company setup and visa.",
-    "bankBody": "Once the company is created and the residence visa is obtained, Rakmaro prepares business account opening within 7 days with what banks expect: a clear activity, corporate documents, shareholder profile, clients and business logic.",
-    "bankNote": "Residency changes the conversation: it reassures the bank, simplifies KYC checks and gives the file a much stronger logic.",
+    "bankTitle": "Business account prepared from company setup",
+    "bankBody": "Once the company is created and the visa is obtained, Rakmaro prepares the banking file to move quickly: corporate documents, activity, shareholder profile, clients and business logic.",
+    "bankNote": "Account opening and timelines remain subject to bank approval. For standard files, the application can generally be prepared and launched within a few days after company setup and visa approval.",
     "founderEyebrow": "French-speaking team",
     "founderTitle": "A team that understands your language and the local ground.",
     "founderBody": "Rakmaro supports French-speaking and international entrepreneurs with a practical view of the project, administrative steps and decisions to make before relocating to the UAE.",
