@@ -314,7 +314,7 @@ svg {
   color: var(--paper-strong);
   background:
     linear-gradient(90deg, rgba(6, 9, 8, 0.72), rgba(6, 9, 8, 0.18)),
-    url("/assets/dubai-downtown-dawn.jpg") center / cover;
+    url("/hero-frames/frame-000.jpg") center / cover;
 }
 
 .hero-fallback-image,
@@ -415,9 +415,9 @@ p {
 }
 
 h1 {
-  max-width: 640px;
+  max-width: 600px;
   margin-bottom: 18px;
-  font-size: clamp(2.35rem, 4.2vw, 4.05rem);
+  font-size: clamp(2.2rem, 3.8vw, 3.65rem);
   line-height: 1;
   letter-spacing: 0;
 }
@@ -2191,7 +2191,7 @@ details p {
   h1 {
     max-width: 100%;
     overflow-wrap: anywhere;
-    font-size: clamp(1.92rem, 8.2vw, 2.16rem);
+    font-size: clamp(1.74rem, 7.4vw, 1.98rem);
     line-height: 1.04;
   }
 
@@ -2224,10 +2224,7 @@ details p {
   }
 
   .hero-scroll-cue {
-    right: 18px;
-    bottom: 20px;
-    min-width: 0;
-    max-width: 180px;
+    display: none;
   }
 
   .hero-metrics {

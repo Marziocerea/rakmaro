@@ -731,7 +731,7 @@ export default function RakmaroLanding() {
 
       <section id="top" ref={heroRef} className="hero-scroll">
         <div className="hero-sticky">
-          <img className="hero-fallback-image" src="/assets/dubai-downtown-dawn.jpg" alt="" aria-hidden="true" />
+          <img className="hero-fallback-image" src="/hero-frames/frame-000.jpg" alt="" aria-hidden="true" />
           <canvas
             ref={canvasRef}
             className={validFrames >= MIN_CANVAS_FRAMES ? "hero-canvas is-ready" : "hero-canvas"}
