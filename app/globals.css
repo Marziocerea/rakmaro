@@ -302,7 +302,7 @@ svg {
 }
 
 .hero-scroll {
-  height: 380vh;
+  height: 720vh;
   background: var(--night);
 }
 
@@ -1015,6 +1015,13 @@ details p,
 .dark-band p,
 .dark-band .note-box {
   color: rgba(255, 253, 248, 0.76);
+}
+
+.dark-band > div > p,
+.dark-band .subtle-note,
+.dark-band .note-box {
+  color: var(--terracotta-soft);
+  color: color-mix(in srgb, var(--gold) 70%, var(--white) 30%);
 }
 
 .note-box,
@@ -2172,7 +2179,7 @@ details p {
   }
 
   .hero-scroll {
-    height: 320vh;
+    height: 580vh;
   }
 
   .hero-content {
