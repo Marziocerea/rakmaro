@@ -302,7 +302,7 @@ svg {
 }
 
 .hero-scroll {
-  height: 720vh;
+  height: 1080vh;
   background: var(--night);
 }
 
@@ -2179,7 +2179,7 @@ details p {
   }
 
   .hero-scroll {
-    height: 580vh;
+    height: 860vh;
   }
 
   .hero-content {

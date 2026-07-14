@@ -1,4 +1,4 @@
-export const HERO_FRAME_COUNT = 274;
+export const HERO_FRAME_COUNT = 429;
 
 export const HERO_FRAME_MANIFEST = Array.from(
   { length: HERO_FRAME_COUNT },
